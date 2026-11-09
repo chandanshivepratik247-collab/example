@@ -1,0 +1,92 @@
+<!-- File Name: index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Types Example</title>
+    
+    <!-- External CSS Connection -->
+    <link rel="stylesheet" href="prac4ex.css">
+
+    <!-- Internal CSS -->
+    <style>
+
+        /* Internal CSS */
+
+        h2 {
+            color: darkblue;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        table {
+            width: 70%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+        }
+
+        th, td {
+            border: 2px solid black;
+            padding: 12px;
+            text-align: center;
+        }
+
+        tr:hover {
+            background-color: lightyellow;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="color:red; text-align:center; background-color:lightyellow; padding:15px;">
+        Student Information Table
+    </h1>
+
+    <h2>Example of Inline, Internal and External CSS</h2>
+
+    <table>
+
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>City</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Pratik</td>
+            <td>B.Tech CSE</td>
+            <td>Pune</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Rahul</td>
+            <td>BCA</td>
+            <td>Mumbai</td>
+        </tr>
+
+        <tr>
+            <td>103</td>
+            <td>Sneha</td>
+            <td>B.Sc IT</td>
+            <td>Nashik</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
